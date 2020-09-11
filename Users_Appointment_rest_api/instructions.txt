@@ -1,0 +1,6 @@
+Steps to run the application:
+
+1.Please enable CrossOrigin in UsersController.java.
+2.Create a mySQL database called "test".
+3.Start the StarterApp.java to run the application.
+4.Read the api documentation using the url: http://localhost:8080/swagger-ui.html
