@@ -34,6 +34,7 @@ public class UsersService {
     //read by Id
 
     public Users getUserbyID(Integer userId) {
+
         return repository.findOne(userId);
     }
 
@@ -56,8 +57,8 @@ public class UsersService {
         existingUser.setName(user.getName());
         existingUser.setEmail(user.getEmail());
         existingUser.setPhone(user.getPhone());
-        existingUser.setDate(user.getDate());
         existingUser.setTime(user.getTime());
+        existingUser.setDate(user.getDate());
         return repository.save(existingUser);
 
     }

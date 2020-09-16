@@ -1,0 +1,7 @@
+{
+  "rememberMe": "false",
+  "btnStyle": "primary",
+  "btnSize": "large",
+  "btnLabel": "SignIn",
+  "bsClass": "btn-block"
+}
